@@ -1,0 +1,207 @@
+h1 {
+	font-size: 30px;
+	font-family: helvetica;
+	font-color: 0px red;
+	text-align: center;
+	color: #922B21;
+	width: 400px;
+	margin: 0 auto;
+}
+
+div {
+	 border: 2px  #922B21;
+	 border-radius: 10px;
+	 background-color: transparent;
+	 margin-bottom: 20px;
+}
+
+p {
+	color: #922B21;
+}
+
+i {
+	font-size: 35px;
+	color: black;
+}
+
+.card-coach {
+  overflow: hidden;
+  height: 120px;
+  width: 800px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-coach img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-coach h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #641E16;
+  margin: 0;
+}
+
+.card-coach p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-coach .card-product {
+  padding: 16px;
+}
+
+.flexbox1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-color: transparent;
+   box-shadow: 0px 0px 0px;
+
+}
+
+.b-img {
+	width: 275px;
+	height: 183px;
+}
+
+.flex-img img{
+	width: 250px;
+	height:150px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.flexbox2 {
+	display: flex;
+	width: 700px;
+	margin: 0 auto;
+
+}
+
+.bouton {
+	 border: 2px  #641E16;
+	 border-radius: 10px;
+	 background-color: #641E16;
+	 text-decoration: none;
+	 color: white;
+	 width: 1000px;
+	 margin: 200px auto;
+	 padding: 5px 8px;
+}
+
+.bouton:hover {
+	background-color: white;
+	color: #641E16;
+	border: 2px solid #641E16;
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.3)
+}
+
+.card-coach {
+  overflow: hidden;
+  height: 120px;
+  width: 800px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-coach img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-coach h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #641E16;
+  margin: 0;
+}
+
+.card-coach p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-coach .card-product {
+  padding: 16px;
+}
+
+.footer {
+  background: #ECF0F1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: #78281F;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links i {
+	color: #78281F;
+}
+.footer-30 {
+	color: #78281F;
+	font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .conteneur {
+    width: 100%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .conteneur {
+    width: 100%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .conteneur {
+  	width: 100%;
+  }
+ }
+@media (max-width: 360px) {
+  /* For a screen < 960px, this CSS will be read */
+  .conteneur {
+    width: 100%;
+  }
+  #banner {
+  	width: 100vh;
+  }
+  .b1,.b3 {
+  	display: none;
+  }
+}
+
+@import url("ui-kt/card.coach.css")
